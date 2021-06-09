@@ -15,6 +15,9 @@ Developer commits application config/definition changes to Git. Argo CD detect t
 See the [Getting Started](https://argoproj.github.io/argo-cd/getting_started/) documentation.
 
 
+## Kustomize
+Use [Kustomize](https://www.digitalocean.com/community/tutorials/how-to-manage-your-kubernetes-configurations-with-kustomize) to configure k8s objects differently for each environment. Keep the common configuration in the base.
+
 Other alternatives:
 - [FluxCD](https://fluxcd.io/) 
 - [Jenkins X](https://jenkins-x.io/)

@@ -1,6 +1,5 @@
 bases:
 - ../../base/api-1
 patchesStrategicMerge:
-- configmap.yaml
 - deployment.yaml
 - service.yaml
