@@ -1,0 +1,11 @@
+apiVersion: apps/v1
+kind: Service
+metadata:
+  name: api-2-service
+spec:
+  selector:
+    app: api-2
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 9001
