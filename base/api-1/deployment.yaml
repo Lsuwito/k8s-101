@@ -14,5 +14,15 @@ spec:
       containers:
       - image: nginx:latest
         name: api-1
+        volumeMounts:
+        - name: api-1
+          mountPath: /usr/share/nginx/html
         ports:
         - containerPort: 80
+      volumes:
+      - name: api-1
+        configMap:
+          name: api-1
+          items:
+          - key: body
+            path: index.html
