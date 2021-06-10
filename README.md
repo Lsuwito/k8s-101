@@ -18,7 +18,7 @@ See the [Getting Started](https://argoproj.github.io/argo-cd/getting_started/) d
 ## Kustomize
 Use [Kustomize](https://www.digitalocean.com/community/tutorials/how-to-manage-your-kubernetes-configurations-with-kustomize) to configure k8s objects differently for each environment. Keep the common configuration in the base.
 
-Other alternatives:
+## Other Declarative GitOps Continuous Delivery Alternatives:
 - [FluxCD](https://fluxcd.io/) 
 - [Jenkins X](https://jenkins-x.io/)
 
