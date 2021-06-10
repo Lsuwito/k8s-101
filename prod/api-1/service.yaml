@@ -5,6 +5,4 @@ metadata:
 spec:
   type: NodePort
   ports:
-  - port: 9000
-    targetPort: 80
-    nodePort: 30010
+  - nodePort: 30010
